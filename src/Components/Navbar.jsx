@@ -3,7 +3,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <div className="logo"><img src="../images/nikePNG.png" alt="Logo" /></div>
+            <div className="logo"><img src="https://1000logos.net/wp-content/uploads/2021/11/Nike-Logo-768x432.png" alt="Logo" /></div>
             <ul className="navitems">
                 <li href="#">Home</li>
                 <li href="#">Location</li>
