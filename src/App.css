@@ -13,6 +13,8 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+/* Navbar Section  */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -65,4 +67,78 @@ nav button {
 nav button:hover {
   transform: translateY(-3px);
   box-shadow: 1px 1px 5px var(--btnhover);
+}
+
+/* Hero Section */
+
+.hero-section {
+  display: flex;
+  max-height:856px;
+  max-width: 1125px;
+  align-items: center;
+  margin:0 auto;
+}
+
+.herotext {
+  max-width: 595px;
+  max-height: 306px;
+  margin-top: 1%;
+}
+
+.herotext h1 {
+  font-size: 85px;
+  line-height: 85px;
+}
+
+.herotext .hero-desc {
+  font-weight: 600;
+  max-width: 425px;
+  margin: 30px 0 25px 0;
+}
+
+.herotext button {
+  all: unset;
+  background-color: var(--btn);
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  transition: .5s;
+
+}
+
+.herotext .btn1 {
+  margin-right: 5%;
+  border: 2px solid  var(--btn);
+}
+
+.herotext .btn1:hover {
+  transform: translateY(-4px);
+  border: 2px solid  var(--btnhover);
+  box-shadow: 1px 1px 5px var(--btnhover);
+}
+
+.herotext .btn2 {
+background-color: transparent;
+border: 2px solid  var(--btnhover);
+}
+
+.herotext .btn2:hover {
+  transform: translateY(-4px);
+  background-color: var(--btn);
+  box-shadow: 1px 1px 5px var(--btnhover);
+}
+
+.available {
+  margin-top: 30px;
+}
+
+.herotext img {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.heroimage {
+  margin:auto;
 }
